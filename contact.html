@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thiết kế web</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style/product-detail.css" />
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h2 class="logo"><img src="./img/Logo-1.jpg"></h2></a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						CỬA HÀNG <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Nam</a>
+						<hr />
+						<a href="./shop-male.html">Nữ</a>
+						<hr />
+						<a href="./shop-male.html">Phụ kiện </a>
+						<hr />
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="#" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a href="login.html" class="main_links">thêm trang</a>				
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()"
+					><i class="fas fa-bars"></i
+				></a>
+			</div>
+		</header>
+		<main>
+			<section class="clearfix first-section">
+				<div class="left-content">
+					<div class="searchBoxContainer">
+						<form action="" class="search-box">
+							<input
+								class="search-box-input"
+								placeholder="Tìm kiếm..."
+								type="text"
+								name=""
+								id=""
+							/>
+							<button class="search-box-submit" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+					<div class="left-list" id="cateList">
+						<div class="list-title">Danh mục sản phẩm</div>
+						<div class="list-content">
+							<a href="./shop-male.html"> Nam</a>
+							<a href="./shop-male.html"> Nữ</a>
+							<a href="./shop-male.html">phụ kiện</a>
+						</div>
+					</div>
+					<div class="left-list" id="prodList">
+						<div class="list-title">Sản phẩm</div>
+						<div class="list-content">
+							<a href="#">
+								<div>
+									<img src="./img/p35_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">pleat cap</h4>
+										<p class="product-price">280.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div>
+									<img src="./img/p22_800x900-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">TICAO BAG IN BLACK</h4>
+										<p class="product-price">305.000đ</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="left-list" id="newsList">
+						<div class="list-title">Bài viết mới</div>
+						<div class="list-content">
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="contact-card clearfix">
+						<img
+							src="./img/card-image.png"
+							style="object-fit: cover"
+							alt=""
+							class="card-img"
+						/>
+						<div class="card-text">
+							<br />
+							<h1>Liên hệ</h1>
+							<p>Giúp chúng tôi phát triển hơn với ý kiến của bạn nhé...</p>
+							<h3>Gửi một tin nhắn</h3>
+							<form action="" class="clearfix">
+								<input
+									type="text"
+									style="margin-bottom: 10px"
+									name=""
+									placeholder="Họ tên"
+									id=""
+								/>
+								<input
+									type="text"
+									style="margin-bottom: 10px"
+									name=""
+									placeholder="Email"
+									id=""
+								/>
+								<textarea
+									placeholder="Tin nhắn"
+									id=""
+									cols="30"
+									rows="10"
+								></textarea>
+								<button
+									type="submit"
+									style="
+										height: 40px;
+										padding: 0 20px;
+										margin-top: 10px;
+										float: right;
+									"
+								>
+									Gửi tin nhắn
+								</button>
+							</form>
+							<br />
+							<br />
+							<br />
+							<br />
+							<h3>Theo dõi shop!</h3>
+							<ul class="follow-us">
+								<li class="facebook">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+								</li>
+								<li class="google-plus">
+									<a href="#"><i class="fab fa-google-plus-g"></i></a>
+								</li>
+								<li class="twitter">
+									<a href="#"><i class="fab fa-twitter"></i></a>
+								</li>
+								<li class="linkedin">
+									<a href="#"><i class="fab fa-linkedin-in"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

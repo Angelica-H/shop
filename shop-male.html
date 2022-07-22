@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thiết kế web</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style/product-detail.css" />
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h2 class="logo"><img src="./img/Logo-1.jpg"></h2></a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						CỬA HÀNG <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Nam</a>
+						<hr />
+						<a href="./shop-male.html">Nữ</a>
+						<hr />
+						<a href="./shop-male.html">Phụ kiện </a>
+						<hr />
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="#" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()"
+					><i class="fas fa-bars"></i
+				></a>
+			</div>
+		</header>
+		<main>
+			<section class="clearfix first-section">
+				<div class="left-content">
+					<div class="searchBoxContainer">
+						<form action="" class="search-box">
+							<input
+								class="search-box-input"
+								placeholder="Tìm kiếm..."
+								type="text"
+								name=""
+								id=""
+							/>
+							<button class="search-box-submit" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+					<div class="left-list" id="cateList">
+						<div class="list-title">Danh mục sản phẩm</div>
+						<div class="list-content">
+							<a href="./shop-male.html"> Nam</a>
+							<a href="./shop-male.html"> Nữ</a>
+							<a href="./shop-male.html">phụ kiện</a>
+						</div>
+					</div>
+					<div class="left-list" id="prodList">
+						<div class="list-title">Sản phẩm</div>
+						<div class="list-content">
+							<a href="product-detail.html">
+								
+								<div>
+									<img src="./img/p22_800x900-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">TICAO BAG IN BLACK</h4>
+										<p class="product-price">305.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div>
+									<img src="./img/2_800x900-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">pleat cap</h4>
+										<p class="product-price">285.000đ</p>
+									</div>
+								</div>
+								
+							</a>
+						</div>
+					</div>
+					<div class="left-list" id="newsList">
+						<div class="list-title">Bài viết mới</div>
+						<div class="list-content">
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/p49_800x900-300x400.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="related">
+						<h2 class="related-title">Thời trang nam</h2>
+						<div class="related-product">							
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/2_800x900-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>bleat cap</h3>
+										<p class="price">280.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/gucci.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>shoes gucci</h3>
+										<p class="price">7.560.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/p22_800x900-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>TICAO BAG IN BLACK</h3>
+										<p class="price">305.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/p38_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>choker guccigucci</h3>
+										<p class="price">22.560.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/p25_800x900-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>SANDAL SHOE IN CAMELLIA</h3>
+										<p class="price">738.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div class="ratting">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<img src="./img/gu.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>handbang gucci</h3>
+										<p class="price">10.560.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div>
+										<img src="./img/abc.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>abc</h3>
+										<p class="price">14.660.000đ</p>
+									</div>								
+							<a href="product-detail.html">
+								<div class="related-border">
+									<div>
+										<img src="./img/jogger-pant.png" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>jogger-pant</h3>
+										<p class="price">375.000đ</p>
+									</div>				
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div style="line-height: 30px">
+				<p class="footer_text">VỀ CHÚNG TÔI</p>
+				<p style="color: #a9a9a6">
+					luôn mang đến sự hài lòng đến cho khách hàng
+				</p>
+				<p style="margin: 20px 0" class="footer_text">THỜI GIAN MỞ CỬA</p>
+				<p style="color: #a9a9a6">
+					Thứ Hai - Thứ Sáu .... 8,00 đến 18:00<br />
+					Thứ Bảy ............ 9.00 đến 21.00<br />
+					Chủ nhật ............ 10:00 đến 21:00
+				</p>
+			</div>
+			<div>
+				<p class="footer_text">MENU</p>
+				<nav style="line-height: 40px">
+					<a href="">Trang chủ</a><br />
+					<a href="">Cửa hàng</a><br />
+					<a href="">Giỏ hàng</a><br />
+					<a href="">Giới thiệu</a><br />
+					<a href="">Liên hệ</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">DANH MỤC</p>
+				<nav style="line-height: 40px">
+					<a href="">Áo</a><br />
+					<a href="">Quần</a><br />
+					<a href="">Giầy</a><br />
+					<a href="">Phụ kiện </a><br />
+					<a href="">Túi sách</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">CHÍNH SÁCH</p>
+				<p style="line-height: 40px; color: #a9a9a6">
+					<a href="">Chính sách ưu đãi</a><br />
+					<a href="">Chính sách bảo mật</a><br />
+					<a href="">Chính sách giao nhận</a><br />
+					<a href="">Chính sách đổi trả</a>
+				</p>
+			</div>
+		</footer>
+		<div class="license">© Bản quyền thuộc về ngô quyết tâm</div>
+	</body>
+</html>

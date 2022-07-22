@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thiết kế web</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style/product-detail.css" />
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h2 class="logo"><img src="./img/Logo-1.jpg"></h2></a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						CỬA HÀNG <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Nam</a>
+						<hr />
+						<a href="./shop-male.html">Nữ</a>
+						<hr />
+						<a href="./shop-male.html">Phụ kiện </a>
+						<hr />
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="#" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a href="login.html" class="main_links">thêm trang</a>				
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()"
+					><i class="fas fa-bars"></i
+				></a>
+			</div>
+		</header>
+		<main>
+			<section class="clearfix first-section">
+				<div class="left-content">
+					<div class="searchBoxContainer">
+						<form action="" class="search-box">
+							<input
+								class="search-box-input"
+								placeholder="Tìm kiếm..."
+								type="text"
+								name=""
+								id=""
+							/>
+							<button class="search-box-submit" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+					<div class="left-list" id="cateList">
+						<div class="list-title">Danh mục sản phẩm</div>
+						<div class="list-content">
+							<a href="./shop-male.html"> Nam</a>
+							<a href="./shop-male.html"> Nữ</a>
+							<a href="./shop-male.html">phụ kiện</a>
+						</div>
+					</div>
+					
+					<div class="left-list" id="prodList">
+						<div class="list-title">Sản phẩm</div>
+						<div class="list-content">
+							<a href="#">
+								<div>
+									<img src="./img/2_800x900-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">pleat cap</h4>
+										<p class="product-price">280.000đ</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div>
+									<img src="./img/p35_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+									<div>
+										<h4 class="product-title">IMPROVISATION CONSEP TS HAT</h4>
+										<p class="product-price">190.000đ</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="left-list" id="cateList">
+						<div class="list-title">GIỎ HÀNG</div>
+						<div class="list-content">
+						</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="clearfix">
+						<div class="product-image-container">
+							<img src="./img/gucci.jpg" alt="" />
+						</div>
+						<div class="product-detail-container">
+							<h2 class="product-name">SHOES GUCCI</h2>
+							<h3 class="product-price">7.560.000đ</h3>
+							<form action="">
+								<input
+									class="number-buy"
+									type="number"
+									name=""
+									id=""
+									value="1"
+								/>
+								<button class="buy-submit" type="submit">Mua hàng</button>
+							</form>
+							<div class="p-color">
+								<h4>Màu:</h4>
+								<div class="btn-group btn-group-sm">
+									<button type="button" class="btn">Trắng</button>
+									<button type="button" class="btn">Đen</button>
+									<button type="button" class="btn">Xanh</button>
+								</div> 
+							</div>
+							<br />							
+							<p>
+								<a href="my-account.html"><i class="far fa-heart"></i></a> THÊM VÀO GIỎ HÀNG
+								
+							</p>
+							<br />
+							<hr />
+							<br />
+							<h2>Mô tả</h2>
+							<p>
+								túi thười trang mang thương hiệu gucci đẳng cấp với giới trẻ
+							</p>
+							<br />
+							<hr />
+							<br />
+							<p>Danh mục: Nữ, Túi Sách</p>
+						</div>
+					</div>
+					<hr />
+					<br />
+					<div class="related">
+						<h2 class="related-title">Sản phẩm tương tự</h2>
+						<div class="related-product">
+							<a href="#">
+								<div class="related-border">
+									<div>
+										<img src="./img/p22_800x900-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>TICAO BAG IN BLACK</h3>
+										<p class="price">305.000đ</p>
+										<div class="p-color">
+                                            <h4>Màu:</h4>
+                                            <div class="btn-group btn-group-sm">
+                                                <button type="button" class="btn">Trắng</button>
+                                                <button type="button" class="btn">Đen</button>
+                                                <button type="button" class="btn">Xanh</button>
+                                            </div> 
+                                        </div>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="related-border">
+									<div>
+										<img src="./img/gu.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>handbang gucci</h3>
+										<p class="price">10.560.000đ</p>
+										<div class="p-color">
+                                            <h4>Màu:</h4>
+                                            <div class="btn-group btn-group-sm">
+                                                <button type="button" class="btn">Trắng</button>
+                                                <button type="button" class="btn">Đen</button>
+                                                <button type="button" class="btn">Xanh</button>
+                                            </div> 
+                                        </div>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="related-border">
+									<div>
+										<img src="./img/p25_800x900-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>SANDAL SHOE IN CAMELLIA</h3>
+										<p class="price">738.000đ</p>
+										<div class="p-color">
+                                            <h4>Màu:</h4>
+                                            <div class="btn-group btn-group-sm">
+                                                <button type="button" class="btn">Trắng</button>
+                                                <button type="button" class="btn">hồng</button>
+                                                <button type="button" class="btn">Xanh</button>
+                                            </div> 
+                                        </div>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="related-border">
+									<div>
+										<img src="./img/p38_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+									</div>
+									<div class="related-text">
+										<h3>choker guccigucci</h3>
+										<p class="price">22.560.000đ</p>
+										<div class="p-color">
+                                            <h4>Màu:</h4>
+                                            <div class="btn-group btn-group-sm">
+                                                <button type="button" class="btn">Trắng</button>
+                                                <button type="button" class="btn">đỏ</button>
+                                                <button type="button" class="btn">vàng</button>
+                                            </div> 
+                                        </div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

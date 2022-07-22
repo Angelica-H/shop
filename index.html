@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thiết kế web</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style/style.css" />
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<script src="./script.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<h2 class="logo" ><img src="./img/Logo-1.jpg"></h2>
+			</a>			
+			<div class="navMenu" id="navMenuId">
+				 <div class="col-md-10">
+					<div class="search">
+						<input type="text" placeholder="Tìm kiếm">
+						<button><i class="fa fa-search"></i></button>
+					</div>
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						Cửa hàng<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Nam</a>
+						<hr />
+						<a href="./shop-male.html">Nữ</a>
+						<hr />
+						<a href="./shop-male.html">Phụ kiện </a>
+						<hr />
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="#" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a href="login.html" class="main_links">thêm trang</a>				
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()"
+					><i class="fas fa-bars"></i
+				></a>
+			</div>
+			<!-- <h3 class="current-page">TRANG CHỦ</h3> -->
+		</header>
+		<div class="banner">
+			<img src="./img/banner-thoi-trang-nam.jpg" alt="banner" />
+		</div>
+		<main>
+			<div class="link-namnu">
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Thời trang nam</h3>
+						<!-- <div class="link-image"> -->
+						<img src="./img/banner-nam.jpg" alt="banner-nam" />
+						<!-- </div> -->
+					</a>
+				</div>
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Thời trang nữ</h3>
+						<!-- <div class="link-image"> -->
+						<img src="./img/banner-nu.jpg" alt="banner-nu" />
+						<!-- </div> -->
+					</a>
+				</div>
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Phụ kiện </h3>
+						<!-- <div class="link-image"> -->
+						<img src="./img/banner-the-thao.png" alt="banner-nu" />
+						<!-- </div> -->
+					</a>
+				</div>
+			</div>
+			<div class="danh-muc-brands">
+				<div class="sidebar-widget widget-slider"></div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/logo balen.png" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/logo gucci.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/logo louis.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/logo hermest.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/fashine.png" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-1.png" alt="brands"
+					/></a>
+				</div>
+			</div>
+			<hr />
+			<h1
+				style="text-align: center; text-transform: uppercase; margin-top: 40px"
+			>
+				Danh mục sản Phẩm
+			</h1>
+			<p
+				style="
+					width: 75%;
+					text-align: center;
+					margin: auto;
+					font-size: 13pt;
+					color: gray;
+					margin-bottom: 50px;
+				"
+			>
+				khách hàng hãy liện hệ qua instagram hoặc facebook ngô quyết tâm
+
+			</p>
+			<div class="list_link">
+				<ul class="link_content">
+					<a href="#">
+						<li class="link_hover" style="color: black">ĐIẾM ĐẾN MỚI</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">XU HƯỚNG</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">ĐẶC SẮC</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">BÁN CHẠY NHẤT</li>			
+					</a>
+				</ul>			
+			</div>			
+			<div class="img_content">
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p22_800x900-300x400.jpg" alt="aa" />
+						<p class="img_name">TICAO BAG IN BLACK</p>
+					</a>
+					<p class="img_price">305.000$</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p25_800x900-300x400.jpg" alt="" />
+						<p class="img_name">SANDAL SHOE IN CAMELLIA</p>
+					</a>
+
+					<p class="img_price">738.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p35_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+						<p class="img_name">IMPROVISATION CONCEPTS HAT</p>
+					</a>
+					<p class="img_price">190.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p38_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+						<p class="img_name">NICA NECKLACE</p>
+					</a>
+					<p class="img_price">165.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p49_800x900-300x400.jpg" alt="" />
+						<p class="img_name">BALANCE TOP</p>
+					</a>
+					<p class="img_price">399.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p45_800x900-300x400.jpg" alt="" />
+						<p class="img_name">BUCKET BAG BLACK</p>
+					</a>
+					<p class="img_price">695.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/2_800x900-300x400.jpg" alt="" />
+						<p class="img_name">PLEAT CAP</p>
+					</a>
+					<p class="img_price">280.000đ</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/p12_800x900-300x400.jpg" alt="" />
+						<p class="img_name">NIX EARRINGS</p>
+					</a>
+					<p class="img_price">360.000đ</p>
+				</div>
+					<div class="img_content_link">
+						<a href="product-detail.html">
+							<img src="img/gucci.jpg" alt="" />
+							<p class="img_name">shoes gucci</p>
+						</a>
+						<p class="img_price">7.560.000đ</p>
+						
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/gu.jpg" alt="" />
+						<p class="img_name">handbang gucci</p>
+					</a>
+					<p class="img_price">10.560.000đ</p>					
+			</div>
+			<div class="img_content_link">
+				<a href="product-detail.html">
+					<img src="img/abc.jpg" alt="" />
+					<p class="img_name">abc gucci</p>
+				</a>
+				<p class="img_price">14.660.000đ</p>			
+		</div>
+		<div class="img_content_link">
+			<a href="product-detail.html">
+				<img src="img/p38_800x900-Copy-Copy-2-300x400.jpg" alt="" />
+				<p class="img_name">choker gucci</p>
+			</a>
+			<p class="img_price">22.560.000đ</p>
+			
+	</div>
+			</div>
+			<div class="application">
+				<p class="application_text">FACEBOOK</p>
+				<p class="application_describe">
+					
+				</p>
+				<div class="application_link">
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/30.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/6.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/22.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/tai-hinh-anh-dep-ve-tinh-yeu-lang-man-nhat-mien-phi-21.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="information">
+				<div class="">
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/truck.svg"
+						alt=""
+					/>
+					<p style="color: #2d90e0; font-size: 1.1rem; font-weight: 600">
+						GIAO HÀNG MIỄN PHÍ VÀ TRẢ LẠI
+					</p>
+					<p style="color:  #4a4e4e; font-size: 1.1rem">Miễn phí vận chuyển</p>
+				</div>
+				<div>
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/dollar.svg"
+						alt=""
+					/>
+					<p style="color: #2d90e0; font-size: 1.1rem; font-weight: 600">
+						ĐẢM BẢO AN TOÀN
+					</p>
+					<p style="color: #4a4e4e; font-size: 1.1rem">
+						Đảm bảo hoàn tiền trong 7 ngày
+					</p>
+				</div>
+
+				<div>
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/lock.svg"
+						alt=""
+					/>
+					<p style="color: #2d90e0; font-size: 1.1rem; font-weight: 600">
+						THANH TOÁN AN TOÀN
+					</p>
+					<p style="color:  #4a4e4e; font-size: 1.1rem">
+						Tất cả các khoản thanh toán được bảo đảm
+					</p>
+				</div>
+				<div>
+					<img
+						class="information_img"
+						src=" http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/headphones.svg"
+						alt=""
+					/>
+					<p style="color: #2d90e0; font-size: 1.1rem; font-weight: 600">
+						0355488110					
+					</p>
+					<p style="color:  #4a4e4e; font-size: 1.1rem">
+						Thời gian hàng giờ cho giao hàng.
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div style="line-height: 30px">
+				<p class="footer_text">VỀ CHÚNG TÔI</p>
+				<p style="color: #a9a9a6">
+					HÃY LIÊN HỆ NẾU CÓ THẮC MẮC
+				</p>
+				<p style="margin: 20px 0" class="footer_text">THỜI GIAN MỞ CỬA</p>
+				<p style="color: #da5269">
+					Thứ Hai - Thứ Sáu .... 8,00 đến 18:00<br />
+					Thứ Bảy ............ 9.00 đến 21.00<br />
+					Chủ nhật ............ 10:00 đến 21:00
+				</p>
+			</div>
+			<div>
+				<p class="footer_text">MENU</p>
+				<nav style="line-height: 40px">
+					<a href="">Trang chủ</a><br />
+					<a href="">Cửa hàng</a><br />
+					<a href="">Giỏ hàng</a><br />
+					<a href="">Giới thiệu</a><br />
+					<a href="">Liên hệ</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">DANH MỤC</p>
+				<nav style="line-height: 40px">
+					<a href="">Áo</a><br />
+					<a href="">Quần</a><br />
+					<a href="">Giầy</a><br />
+					<a href="">Phụ kiện thể thao</a><br />
+					<a href="">Túi sách</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">CHÍNH SÁCH</p>
+				<p style="line-height: 40px; color: #2772e2">
+					<a href="">Chính sách ưu đãi</a><br />
+					<a href="">Chính sách bảo mật</a><br />
+					<a href="">Chính sách giao nhận</a><br />
+					<a href="">Chính sách đổi trả</a>
+				</p>
+			</div>
+		</footer>
+		<div class="license" ><p style="color: #80182a"></p>© Bản quyền thuộc về . NGÔ QUYẾT TÂM</div>
+	</body>
+</html>
